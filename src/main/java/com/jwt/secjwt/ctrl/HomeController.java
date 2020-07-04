@@ -28,6 +28,7 @@ public class HomeController {
 
 	@RequestMapping(value = "/home")
 	public String home() {
+		System.out.println("home()");
 		return "home";
 	}
 
