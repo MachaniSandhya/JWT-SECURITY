@@ -15,6 +15,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.jwt.secjwt.filter.JWTCheckFilter;
 
+
+//edited for test-commited
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
