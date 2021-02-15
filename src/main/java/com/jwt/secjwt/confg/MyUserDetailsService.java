@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import com.jwt.secjwt.entity.User;
 import com.jwt.secjwt.repo.UserRepo;
 @Service
+//
 public class MyUserDetailsService implements UserDetailsService {
 	@Autowired
 	private UserRepo repo;
