@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jwt.secjwt.jwt.JWTUtil;
 import com.jwt.secjwt.model.AuthenticationRequest;
 import com.jwt.secjwt.model.AuthenticationResponse;
-//added for test-commit
+//added for test-commit---added
 @RestController
 public class HomeController {
 	@Autowired
